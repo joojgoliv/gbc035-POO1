@@ -1,10 +1,8 @@
 public class Selecao {
     private String tecnico;
     private String selec;
-    private Figurinha f = new Figurinha("Neymar", "5 de Fevereiro de 1992", 1.7,75.3,"Atacante","Brasil");
-   /* f[0] = new Figurinha("Neymar", "5 de Fevereiro de 1992", 1.7,75.3,"Atacante","Brasil");
-    f[1] = new Figurinha("Messi", "24 de Junho de 1987", 1.62,65.2,"Atacante","Argentina");
-    f[2] = new Figurinha("Cristiano Ronaldo", "5 de Fevereiro de 1985", 1.72,72.3,"Atacante","Portugal");*/
+    private Figurinha f[] = new Figurinha[3];
+    //tem que ser dentro de um metodo
 
 
     public Selecao(String tecnico, String pais){
@@ -15,8 +13,16 @@ public class Selecao {
     public String mostraTime(){
         String time = null;
         for(int i = 1; i<=3; i++){
-            time = time + "\nJogador "+i+": "+f.mostraDados();
+            time = time + "\nJogador "+i+": "+f[i].mostraDados();
         }
         return time;
+    }
+
+    public void definirJogadores(){
+        //fazer o usuario preencher com loop
+
+        f[0] = new Figurinha("Neymar", "5 de Fevereiro de 1992", 1.7,75.3,"Atacante","Brasil");
+        f[1] = new Figurinha("Messi", "24 de Junho de 1987", 1.62,65.2,"Atacante","Argentina");
+        f[2] = new Figurinha("Cristiano Ronaldo", "5 de Fevereiro de 1985", 1.72,72.3,"Atacante","Portugal");
     }
 }
