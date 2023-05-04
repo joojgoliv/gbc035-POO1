@@ -1,0 +1,2 @@
+os objetos são sim independentes.
+Cada um consegue existir sem a dependencia do outro

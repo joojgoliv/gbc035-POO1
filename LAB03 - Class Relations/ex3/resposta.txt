@@ -1,0 +1,2 @@
+O objeto departamento só existe dentro da classe empresa
+Logo ele é dependente de empresa, caso esta seja excluida, o objeto tbm será
