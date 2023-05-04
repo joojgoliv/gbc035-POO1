@@ -18,23 +18,4 @@ public class Figurinha{
                 +"\nPosicao: "+pos+"\nPais: "+pais;
     }
 
-    public void mudarNome(String nome){
-        this.nome = nome;
-    }
-    public void mudarNasc(String nasc){
-        this.nasc = nasc;
-    }
-    public void mudarAltura(double altura){
-        this.altura = altura;
-    }
-    public void mudarPeso(double peso){
-        this.peso = peso;
-    }
-    public void mudarPos(String pos){
-        this.pos = pos;
-    }
-    public void mudarPais(String pais){
-        this.pais = pais;
-    }
-
 }

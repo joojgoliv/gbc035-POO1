@@ -33,4 +33,9 @@ public class Selecao {
         f[9] = new Figurinha("Neymar 77", "5 de Fevereiro de 1992", 1.7,75.3,"Atacante","Brasil");
         f[10] = new Figurinha("Messi 77", "24 de Junho de 1987", 1.62,65.2,"Atacante","Argentina");
     }
+
+    public void mudarJogador(int i, ){
+        f[]
+
+    }
 }
